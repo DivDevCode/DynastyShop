@@ -1,0 +1,61 @@
+body {
+  background: linear-gradient(to right, white, gold);
+  font-family: "Georgia", serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.register-container {
+  background-color: white;
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+  width: 100%;
+  max-width: 500px;
+}
+
+.register-container h2 {
+  text-align: center;
+  color: gold;
+  margin-bottom: 20px;
+  font-size: 32px;
+}
+
+.register-container input {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 16px;
+}
+
+.register-container button {
+  width: 100%;
+  padding: 12px;
+  background-color: gold;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 18px;
+  cursor: pointer;
+  margin-top: 15px;
+}
+
+.register-container button:hover {
+  background-color: darkgoldenrod;
+}
+
+.footer-text {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 14px;
+}
+
+.footer-text a {
+  color: gold;
+  text-decoration: none;
+}
