@@ -1,0 +1,21 @@
+:root {
+  --background: #f0f0f0;
+  --background-dark: #333436;
+  --background-darker: #d0d0d0;
+  --bg-dark: hsl(230, 17%, 14%);
+  --bg-dark2: hsl(230, 7%, 50%);
+  --surface: #f5f5f5;
+  --text: #1a1a1a;
+  --text-light: #333333;
+  --text-dark: #000000;
+  --muted-light: #666666;
+  --dark-text1: hsl(227, 47%, 96%);
+  --dark-text2: hsl(230, 22%, 74%);
+  --muted: #999999;
+  --muted-dark: #cccccc;
+  --primary: #d4af37;
+  --primary-1: #fdca20;
+  --accent: #e0b973;
+}
+
+

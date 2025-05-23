@@ -1,0 +1,38 @@
+@import url("./variables.css");
+
+body{
+    background-color: var(--background);
+
+}
+
+/* Universal Style On All Screens */
+.header {
+      background: linear-gradient(to right, var(--background), var(--primary));
+  .Top-txt {
+   
+    h1 {
+      color: var(--text);
+    }
+  }
+
+  
+}
+
+
+/* For Desktop */
+@media (min-width: 1024px) and (min-height: 500px) {
+    .header{
+
+    }
+}
+
+
+/* For Andriod Phones */
+ @media screen and (max-width: 480px) {
+    .header{
+        /* Navigation Container */
+        .navContainer{
+            background-color: red;
+        }
+    }
+ }

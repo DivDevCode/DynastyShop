@@ -1,0 +1,29 @@
+@import url("./variables.css");
+/* Font Design for logo */
+@import url("https://fonts.googleapis.com/css2?family=Protest+Guerrilla&display=swap");
+
+h1,
+h2,
+h3,
+h4,
+hr,
+p{
+    margin: 0;
+    margin-bottom: 0;
+    padding: 0;
+    line-height: normal;
+    font-weight: normal;
+    opacity: 1;
+    
+}
+
+a,
+a:visited,
+a:active
+{
+    text-decoration: none;
+}
+
+button{
+    all: unset;
+} 

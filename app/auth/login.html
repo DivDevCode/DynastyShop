@@ -3,9 +3,48 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Login - Dynasty Departmental Wears</title>
+    <link rel="stylesheet" href="./css/login.css" />
+    <link rel="stylesheet" href="../../css/styles.css" />
+
   </head>
   <body>
-    hi
+    <div class="loginWrapper">
+      <div class="login-container">
+        <h2>Dynasty Login</h2>
+        <form>
+          <!-- Email -->
+          <div class="inputGroup">
+            <input type="text" placeholder="Email" required />
+            <span
+              ><img
+                src="../../assets/svg/email-svgrepo-com.svg"
+                alt=""
+                width="40"
+            /></span>
+          </div>
+
+          <!-- Password -->
+          <div class="inputGroup">
+            <input id="password" type="password" placeholder="Password" required />
+            <span
+              ><img
+                src="../../assets/svg/eye-closed-duotone-svgrepo-com.svg"
+                alt=""
+                width="40"
+                id="eyeIcon"
+                onclick="togglePassword()"
+            /></span>
+          </div>
+
+          <button type="submit">Sign In With Google <span></span></button>
+          <button type="submit">Login</button>
+        </form>
+        <div class="footer-text">
+          Don't have an account? <a href="#">Register</a>
+        </div>
+      </div>
+    </div>
+    <script src="./js/auth.js"></script>
   </body>
 </html>
